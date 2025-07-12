@@ -578,6 +578,120 @@ line-height: 1.7;
   color: #969696;
 }
 
+/* ----------- RESPONSIVE POUR MOBILES ----------- */
+@media (max-width: 768px) {
+  /* Ajustement global */
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .logo {
+    width: 60px;
+    margin: 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 2rem 1rem;
+    background-attachment: scroll;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  /* ABOUT BLOCK */
+  .about-block {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .about-block > .about-image.reveal {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* VINYASA */
+  .vinyasa-section {
+    background-attachment: scroll;
+    padding: 3rem 1rem;
+  }
+
+  .titre-vinyasa {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  /* SCHEDULE TABLE */
+  .schedule table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    font-size: 0.9rem;
+  }
+
+  .schedule th, .schedule td {
+    padding: 0.75rem 1rem;
+  }
+
+  .schedule-page {
+    background-attachment: scroll;
+  }
+
+  /* CONTACT */
+  .contact {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  /* CARTE DE VISITE */
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90vw;
+    height: auto;
+  }
+
+  .card-front,
+  .card-back {
+    padding: 1rem;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    padding: 0 1rem;
+  }
+}
+
+
 
 
 
